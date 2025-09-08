@@ -1,0 +1,22 @@
+
+/* Custom spinner animation */
+.spinner-border {
+    border-color: currentColor;
+    border-right-color: transparent;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+/* Active category button style */
+.category-btn.active {
+    background-color: #16a34a;
+    color: white;
+    font-weight: 600;
+}
