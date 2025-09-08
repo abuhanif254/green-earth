@@ -70,7 +70,7 @@ const displayCategories = (categories) => {
 
         categoriesList.appendChild(button);
     });
-    // Load the 'All Tree' category by default
+    // Load the 'All Tree' category
     const firstCategoryBtn = categoriesList.querySelector('.category-btn');
     if (firstCategoryBtn) {
         firstCategoryBtn.classList.add('active');
